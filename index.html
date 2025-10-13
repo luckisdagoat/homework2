@@ -25,9 +25,20 @@ height="500"
                 color="lightskyblue"
             >
             </a-sky>
+
             <a-mixin
 id="wallcolor"
-color="lightsteelblue"
+material=
+"src: #wall-base;
+repeat: 8 8;
+ambientOcclusionMap: #wall-ambient-
+occlusion;
+ambientOcclusionTextureRepeat: 8 8;
+normalMap: #wall-normal;
+normalTextureRepeat: 8 8;"
+geometry="radius:1"
+>
+"
 >
 </a-mixin>
 <a-box
